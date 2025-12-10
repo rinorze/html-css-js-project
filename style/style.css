@@ -1,0 +1,27 @@
+:root {
+  --bg: #f7f9fc;
+  --accent: #0b77ff;
+  --text: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
